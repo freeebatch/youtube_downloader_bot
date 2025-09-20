@@ -3,4 +3,7 @@ yt-dlp>=2023.12.30
 ffmpeg-python>=0.2.0
 shazamio>=0.8.1
 python-dotenv>=1.0.0
-aiohttp>=3.8.0 
+aiohttp>=3.8.0
+pyaudio>=0.2.11
+python =3.11.9
+pipenv
