@@ -11,7 +11,7 @@ YOUTUBE_REGEX = r"(https?://)?(www\.)?(youtube\.com|youtu\.?be)/.+"
 INSTAGRAM_REGEX = r"(https?://)?(www\.)?instagram\.com/(reel|p|tv)/[\w-]+"
 
 user_usage = {}
-USAGE_LIMIT = 10
+USAGE_LIMIT = 100
 
 async def detect_link(text):
     if re.search(YOUTUBE_REGEX, text):
